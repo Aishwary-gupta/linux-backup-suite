@@ -1,0 +1,14 @@
+[Unit]
+Description=Linux Backup Suite - Automated Scheduled Backup Service
+After=network.target
+
+[Service]
+Type=oneshot
+User=%i
+WorkingDirectory=%h/linux-backup-suite
+ExecStart=%h/linux-backup-suite/backup.sh
+StandardOutput=append:%h/linux-backup-suite/logs/systemd_backup.log
+StandardError=append:%h/linux-backup-suite/logs/systemd_backup.log
+
+[Install]
+WantedBy=multi-user.target

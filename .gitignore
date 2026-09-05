@@ -1,0 +1,26 @@
+# Ignore backup archives
+backups/
+*.tar.gz
+*.sha256
+
+# Ignore runtime logs
+logs/
+*.log
+
+# Ignore lock and PID files
+*.lock
+*.pid
+
+# Ignore local test directories
+backup-test/
+test_env/
+tmp/
+.cache/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
