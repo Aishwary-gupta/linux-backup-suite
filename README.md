@@ -265,7 +265,3 @@ When presenting this project to hiring managers or on your resume, you can highl
 - **Automated Testing:** Authored end-to-end integration test harness (`tests/test_suite.sh`) validating compression, retention policies, and file recovery.
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
